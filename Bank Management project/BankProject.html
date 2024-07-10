@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BankProject.css">
+</head>
+<body>
+<div class="amount-container">
+    <div class="diposite amount-box">
+        <div>
+            <h1 id="deposite-amount" class="money">00</h1>
+            <p>Deposite</p>
+        </div>
+    </div>
+    <div class="withdraw amount-box">
+        <div>
+            <h1 id="withdraw-amount" class="money">00</h1>
+            <p>Withdraw</p>
+        </div>
+    </div>
+    <div class="total amount-box">
+        <div>
+            <h1 id="total-amount" class="money">00</h1>
+            <p>Total</p>
+        </div>
+    </div>
+</div>
+<div class="diposite-withdraw-container">
+    <div class="diposite-box input-box">
+        <input type="number" id="deposite-input">
+        <br>
+        <button onclick="handleDeposite()" class="btn deposite-btn">Diposite</button>
+    </div>
+    <div class="withdraw-box input-box">
+        <input type="input" id="withdraw-input">
+        <br>
+        <button onclick=" handleWithdraw()" class="btn withdraw-btn">Withdraw</button>
+    </div>
+</div>
+
+   <script src="BankProject.js"></script> 
+</body>
+</html>
